@@ -1,0 +1,33 @@
+.loadMoreContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.loadMoreButton {
+    padding: 10px 20px;
+    background-color: #36D7B7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.loadMoreButton:hover {
+    background-color: #2db39c;
+    transform: scale(1.05);
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 1s linear infinite;
+}
