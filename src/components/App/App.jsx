@@ -7,7 +7,7 @@ import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
-import './App.css';
+import './App.module.css';
 
 const App = () => {
   const [images, setImages] = useState([]);
