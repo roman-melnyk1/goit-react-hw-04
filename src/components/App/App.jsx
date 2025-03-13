@@ -89,7 +89,6 @@ const App = () => {
       {isLoading && <Loader />}
       {images.length > 0 && hasMoreImages && !isLoading && <LoadMoreBtn onClick={loadMoreImages} />}
       {selectedImage && <ImageModal image={selectedImage} onClose={closeModal} />}
-      <Toaster position="top-right" />
     </div>
   );
 };
